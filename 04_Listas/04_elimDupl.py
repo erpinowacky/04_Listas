@@ -17,11 +17,8 @@ print()
 
 print('*****ELIMINAR DUPLICADO DE LA LISTA*****')
 for i in listNum:
-    while True:
-        contador = listNum.count(i)
-        if contador > 1:
-            listNum.remove(i)
-        else:
-            break
+    contador = listNum.count(i)
+    if contador > 1:
+        listNum.remove(i)
 print(listNum)
 
